@@ -8,12 +8,12 @@ Requirements:
 
 ## How to use
 
-> Burry the script in a safe path (clone the repo directly in the safe path)
-> Create a new bot with the BotFather (https://t.me/BotFather) and place the associated token in the script dedicated var
-> Get yourself a group or generate one, and get its group id (Hint: https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id) and put it in the script again
-> Add the new bot into the group with admin perms (unless you don't want to pin the messages, then you'll have to edit the script)
-> Set your log and ip file paths
-> Add something like that in your prefered crontab: ``*/5 * * * * /yourpath/tgipwatch.sh`` (Will check IP changes every 5 minutes)
+- Burry the script in a safe path (clone the repo directly in the safe path)
+- Create a new bot with the BotFather (https://t.me/BotFather) and place the associated token in the script dedicated var
+- Get yourself a group or generate one, and get its group id (Hint: https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id) and put it in the script again
+- Add the new bot into the group with admin perms (unless you don't want to pin the messages, then you'll have to edit the script)
+- Set your log and ip file paths
+- Add something like that in your prefered crontab: ``*/5 * * * * /yourpath/tgipwatch.sh`` (Will check IP changes every 5 minutes)
 
 That's it !
 You should get a new pinned message at every IP change.
